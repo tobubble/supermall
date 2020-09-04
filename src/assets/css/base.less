@@ -1,0 +1,20 @@
+@text-color: #666;
+@text-high-color: #ff5777;
+@background-tink: #ff8198;
+@background-color: #fff;
+@font-size: 14px;
+@line-height: 1.5;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearFix::before,
+.clearFix::after{
+  content: '';
+  display: table;
+  visibility: hidden;
+  clear: both;
+}
+
